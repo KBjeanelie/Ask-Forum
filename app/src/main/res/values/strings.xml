@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Ask Question</string>
+
+    <!-- BASIC TITLE OF ONE ACTIVITY -->
+    <string name="post_title">Poster une question</string>
+
+
+    <string name="forget_pass_txt">Mot de passe oublier ?</string>
+    <string name="forget_pass_title">Renitialisation du mot de passe</string>
+    <string name="sign_in">Vous avez deja un compte? Connexion</string>
+
+
+    <!-- THIS TEXT FOR  EVERY INPUT HINT -->
+    <string name="input_email_hint">Email</string>
+    <string name="input_password_hint">Mot de passe</string>
+    <string name="input_fullName_hint">Nom complet</string>
+    <string name="input_respones_hint">Entrez votre réponse</string>
+    <string name="category_input">Choisir la categorie</string>
+    <string name="key_word_input">Entrer le mot clet</string>
+    <string name="image_input">Inserer une image (Optionelle)</string>
+    <string name="post_input">Rediger votre question</string>
+
+
+    <!-- EVERY TEXT OF BUTTONS-->
+    <string name="login_txt">Connexion</string>
+    <string name="sign_txt">Creer un compte</string>
+    <string name="btn_send_txt">Envoyer</string>
+    <string name="btn_exit_txt">Annuler</string>
+    <string name="btn_response_txt">Répondre</string>
+    <string name="post_btn_txt">Poster maintenant</string>
+
+
+    <string name="back">Retour</string>
+
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="my_post">Question</string>
+    <string name="favorite">Votes</string>
+    <string name="settings">Paramètre</string>
+    <string name="help_center">Aides et Commentaire</string>
+    <string name="logout">Deconexion</string>
+
+    <string name="response">Votre réponse</string>
+    <string name="notification_none">Aucune notification disponible</string>
+
+
+</resources>
