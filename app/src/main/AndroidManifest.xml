@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cg.forum.askquestion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/forum2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/forum2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AskQuestion">
+
+        <activity android:name=".Slapsh_Activity" android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".appinterface.Notification_Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".appinterface.View_Response_Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".appinterface.View_Question_Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".appinterface.Response_Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".appinterface.Profile_Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".authentification.Reset_Password_Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".appinterface.Post_Activity"
+            android:exported="true"
+            android:label="Poser une Question"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".authentification.Register_Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".authentification.Login_Activity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+
+    </application>
+
+</manifest>
